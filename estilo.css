@@ -1,46 +1,104 @@
-@font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-p8na1r');
-	src:url('fonts/icomoon.eot?#iefix-p8na1r') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-p8na1r') format('woff'),
-		url('fonts/icomoon.ttf?-p8na1r') format('truetype'),
-		url('fonts/icomoon.svg?-p8na1r#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+@charset "utf-8";
 
 
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+body {
+  background: lightgray;
+  font-family: sans-serif;
 }
 
-.icon-home:before {
-	content: "\e900";
+h2 {
+  clear: both;
+  margin-bottom: 0.5em;
+  padding-top: 1em;
 }
-.icon-pencil:before {
-	content: "\e905";
+
+
+ul.lista1 li {
+  float:left;
+  width: 10em;
+  border: 5px dashed #954A95;
+  margin-right: 1em;
+  padding: 0.5em 0em;
+  background-color: #5ACE77;
+  color: #5E0272;
+  font-weight: bold;
+  text-align: center;
 }
-.icon-file-text:before {
-	content: "\e922";
+
+ul.lista2 {
+  text-align: center;
 }
-.icon-search:before {
-	content: "\e986";
+
+ul.lista2 li {
+  display: inline;
+  border: white 2px solid;
+  border-color: white black black white;
+  margin: 0em 0.5em;
+  padding: 0.25em 0.5em;
+  background-color: white;
 }
-.icon-switch:before {
-	content: "\e9b6";
+
+ul.lista2 li:hover {
+  border: white 2px solid;
+  border-color: black white white black;
+  background-color: lightgray;
 }
-.icon-plus:before {
-	content: "\ea0a";
+
+ul.lista3 {
+  width: 11em;
+  border: black 1px solid;
+  padding: 0.5em;
+  text-align: center;
 }
-.icon-minus:before {
-	content: "\ea0b";
+
+ul.lista3 li {
+  width: 9em;
+  border: black 1px solid;
+  margin: 0.5em 0 0.5em 0.5em;
+  padding: 0.5em;
+  background-color: white;
+  text-align: center;
+}
+
+ul.lista4 {
+  text-align: center;
+}
+
+ul.lista4 li {
+  display: inline-block;
+  width: 10em;
+  margin: 0;
+  padding: 0.5em 0;
+  background-color: white;
+  color: #3366CC;
+  font-weight: bold;
+}
+
+ul.lista4 li.par {
+  background-color: #3366CC;
+  color: white;
+}
+
+ul.lista5 li {
+  float:left;
+  margin-right: 2em;
+}
+
+ul.lista6 {
+  text-align: center;
+}
+
+ul.lista6 li {
+  display: inline;
+  border: black 0.1em solid;
+  border-radius: 0.3em;
+  margin-right: 1em;
+  padding: 0.5em 0.5em 0.3em;
+  background-color: white;
+  font-size: 200%;
+  line-height: 250%;
+}
+
+ul.lista6 i {
+  margin: 0;
 }
